@@ -1,0 +1,2 @@
+# ktm-asemakaava
+Kaavatietomalli - asemakaava
