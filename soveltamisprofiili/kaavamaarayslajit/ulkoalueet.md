@@ -3,7 +3,6 @@ layout: "default"
 title: "Kaavatietomallin soveltamisprofiili - asemakaava - ulkoalueet"
 description: ""
 id: "ulkoalueet"
-model: "ktm-asemakaava"
 status: "Ehdotus"
 ---
 # Kaavamääräyslajit - ulkoalueet

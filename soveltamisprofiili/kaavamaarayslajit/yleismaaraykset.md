@@ -3,7 +3,6 @@ layout: "default"
 title: "Kaavatietomallin soveltamisprofiili - asemakaava - yleismääräykset"
 description: ""
 id: "yleismaaraykset"
-model: "ktm-asemakaava"
 status: "Ehdotus"
 ---
 # Kaavamääräyslajit - yleismääräykset

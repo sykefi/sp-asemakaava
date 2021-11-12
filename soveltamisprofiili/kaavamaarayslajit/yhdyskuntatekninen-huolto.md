@@ -3,7 +3,6 @@ layout: "default"
 title: "Kaavatietomallin soveltamisprofiili - asemakaava - yhdyskuntatekninen huolto"
 description: ""
 id: "yhdyskuntatekninen-huolto"
-model: "ktm-asemakaava"
 status: "Ehdotus"
 ---
 # Kaavamääräyslajit - yhdyskuntatekninen huolto

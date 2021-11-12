@@ -3,7 +3,6 @@ layout: "default"
 title: "Kaavatietomallin soveltamisprofiili - asemakaava - tonttijako"
 description: ""
 id: "tonttijako"
-model: "ktm-asemakaava"
 status: "Ehdotus"
 ---
 # Kaavamääräyslajit - tonttijako

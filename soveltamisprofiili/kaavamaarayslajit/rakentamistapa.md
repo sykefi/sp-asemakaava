@@ -3,7 +3,6 @@ layout: "default"
 title: "Kaavatietomallin soveltamisprofiili - asemakaava - rakentamistapa"
 description: ""
 id: "rakentamistapa"
-model: "ktm-asemakaava"
 status: "Ehdotus"
 ---
 # Kaavamääräyslajit - rakentamistapa

@@ -3,7 +3,6 @@ layout: "default"
 title: "Kaavatietomallin soveltamisprofiili - asemakaava - rakennusten sijoitus"
 description: ""
 id: "rakennusten-sijoitus"
-model: "ktm-asemakaava"
 status: "Ehdotus"
 ---
 # Kaavamääräyslajit - rakennusten sijoitus

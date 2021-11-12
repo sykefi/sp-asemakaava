@@ -3,7 +3,6 @@ layout: "default"
 title: "Kaavatietomallin soveltamisprofiili - asemakaava"
 description: ""
 id: "koodistot"
-model: "ktm-asemakaava"
 status: "Ehdotus"
 ---
 # Koodistot

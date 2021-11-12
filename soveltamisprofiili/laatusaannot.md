@@ -3,7 +3,6 @@ layout: "default"
 title: "Kaavatietomallin soveltamisprofiili - laatusäännöt"
 description: ""
 id: "laatusaannot"
-model: "ktm-asemakaava"
 status: "Ehdotus"
 ---
 # Laatusäännöt
