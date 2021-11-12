@@ -1,9 +1,9 @@
 ---
 layout: "default"
-title: "Kaavatietomalli - soveltamisprofiili - asemakaava"
+title: "Kaavatietomallin soveltamisprofiili - asemakaava"
 description: ""
-id: "asemakaava"
-model: "kaavatiedot"
+id: "ktm-asemakaava"
+model: "ktm-asemakaava"
 status: "Ehdotus"
 ---
 # Kaavatietomallin soveltamisprofiili asemakaava-aineistoille
