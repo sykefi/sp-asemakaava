@@ -1,7 +1,7 @@
 ---
 layout: "default"
-title: "Kaavamääräyslajit - asemakaava"
+title: "Kaavamääräysopas - asemakaava"
 description: ""
-id: "kaavamaarayslajit"
+id: "kaavamaaraysopas"
 ---
-# Kaavamääräyslajit
+# Kaavamääräysopas
