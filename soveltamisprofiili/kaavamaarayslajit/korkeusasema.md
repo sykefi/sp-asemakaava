@@ -28,7 +28,7 @@ Kaava-aineistossa voidaan ilmaista maanpinnan nimelliskorkeus merenpinnasta tiet
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
-{% include common/question.html.html content="Miksi maanpinnan korkeusasema on kaavamääräys? Ei voi olla ristiriidassa topografisen pohjakartta-aineiston korkeuskäyrien kanssa?" %}
+{% include common/question.html content="Miksi maanpinnan korkeusasema on kaavamääräys? Ei voi olla ristiriidassa topografisen pohjakartta-aineiston korkeuskäyrien kanssa?" %}
 
 ## Rakennuksen vesikaton ylimmän kohdan korkeusasema
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0602>
@@ -64,7 +64,7 @@ Kaava-aineistossa voidaan ilmaista maanpinnan nimelliskorkeus merenpinnasta tiet
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
-{% include common/note.html.html content="Koodin otsikko on 'Rakennuksen julkisivun enimmäiskorkeus metreinä' Tässä määräys on yleisempi" %}
+{% include common/note.html content="Koodin otsikko on 'Rakennuksen julkisivun enimmäiskorkeus metreinä' Tässä määräys on yleisempi" %}
 
 ## Rakennusten, rakenteiden ja laitteiden ylin korkeusasema
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0605>
@@ -77,7 +77,7 @@ Kaava-aineistossa voidaan ilmaista maanpinnan nimelliskorkeus merenpinnasta tiet
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
-{% include common/note.html.html content="Koodin otsikossa 'Rakennuksen, rakenteiden ja laitteiden...', pitäisi olla kaikki monikossa?" %}
+{% include common/note.html content="Koodin otsikossa 'Rakennuksen, rakenteiden ja laitteiden...', pitäisi olla kaikki monikossa?" %}
 
 ## Maanalaisen kohteen korkeusasema
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0606>
@@ -86,7 +86,7 @@ Kaava-aineistossa voidaan ilmaista maanpinnan nimelliskorkeus merenpinnasta tiet
 ```arvo```-attribuutin arvoina saa esiintyä yksi [Korkeuspiste](../../looginenmalli/dokumentaatio/#korkeuspiste) tai yksi [Korkeusvali](../../looginenmalli/dokumentaatio/#korkeusvali), jotka kertovat maanalaisen kaavakohteen perustason korkeuden merenpinnasta sovitun pystysuuntaisen koordinaatiston arvona. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
-{% include common/question.html.html content="Mitä korkeutta tämä tarkalleen ottaen tarkoittaa? Mikä on oikea termi tälle 'perustasolle'?" %}
+{% include common/question.html content="Mitä korkeutta tämä tarkalleen ottaen tarkoittaa? Mikä on oikea termi tälle 'perustasolle'?" %}
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-maanalaisen-kohteen-korkeusasema-lisatiedot" %}
 ```lisatieto```-attribuutilla ei saa olla arvoja.

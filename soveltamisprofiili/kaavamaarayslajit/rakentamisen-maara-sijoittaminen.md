@@ -46,9 +46,9 @@ Mikäli sallittua rakentamisen määrää ei ole jaoteltu käyttötarkoituksitta
 
 Mikäli sallittua rakentamisen määrää ei ole jaoteltu käyttötarkoituksittain, ei lisätietoja käytetä.
 
-{% include common/question.html.html content="Tuleeko käyttää termiä 'kerroskuutiometri' vai riittääkö 'kuutiometri'? Miten rakennustilavuus lasketaan (vrt.kerrosneliömetrit)?" %}
+{% include common/question.html content="Tuleeko käyttää termiä 'kerroskuutiometri' vai riittääkö 'kuutiometri'? Miten rakennustilavuus lasketaan (vrt.kerrosneliömetrit)?" %}
 
-{% include common/question.html.html content="Onko järkevää ilmaista sallittu rakennustilavuus eri kaavamääräyslajina kuin sallittu kerrosala. Nykyisellään rakenne on identtinen, vain yksiköt eroavat" %}
+{% include common/question.html content="Onko järkevää ilmaista sallittu rakennustilavuus eri kaavamääräyslajina kuin sallittu kerrosala. Nykyisellään rakenne on identtinen, vain yksiköt eroavat" %}
 
 ### Tehokkuusluku
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0303>
@@ -61,7 +61,7 @@ Mikäli sallittua rakentamisen määrää ei ole jaoteltu käyttötarkoituksitta
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
-{% include common/question.html.html content="Pitäisikö määräyksen nimi olla Rakennustehokkuus, tehokkuusluku on tapa ilmaista käsite numerona?" %}
+{% include common/question.html content="Pitäisikö määräyksen nimi olla Rakennustehokkuus, tehokkuusluku on tapa ilmaista käsite numerona?" %}
 
 ### Maanpäällinen kerrosluku
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0304>
@@ -125,7 +125,7 @@ Mikäli sallittua rakentamisen määrää ei ole jaoteltu käyttötarkoituksitta
 Mikäli vähintään yksi lisätieto on annettu, koskee rakennuspaikkojen lukumäärä vain lisätietojen avulla rajattuja rakennustyyppejä.
 {% include common/clause_end.html %}
 
-{% include common/note.html.html content="Käytetään tavallisesti vain ranta-asemakaavoissa" %}
+{% include common/note.html content="Käytetään tavallisesti vain ranta-asemakaavoissa" %}
 
 ### Lisärakennusoikeus
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0309>
@@ -143,7 +143,7 @@ Mikäli vähintään yksi lisätieto on annettu, koskee rakennuspaikkojen lukum�
 * Yksi [KoodiArvo](../../looginenmalli/dokumentaatio/#koodiarvo), joka viittaa [KaavamääraysLaji](http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/01) koodien [Alueen käyttötarkoitus](http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/01) tai [Alueen osan käyttötarkoitus](http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/02) johonkin alakoodiin.
 {% include common/clause_end.html %}
 
-{% include common/question.html.html content="Miten lisärakennusoikeus eroaa käyttötarkoituskohtaisesti sallitusta kerrosalasta tai rakennustilavuudesta? Missä tapauksissa lisärakennusoikeutta käytettäisiin? Nykyisellään rakenne on lähes identtinen" %}
+{% include common/question.html content="Miten lisärakennusoikeus eroaa käyttötarkoituskohtaisesti sallitusta kerrosalasta tai rakennustilavuudesta? Missä tapauksissa lisärakennusoikeutta käytettäisiin? Nykyisellään rakenne on lähes identtinen" %}
 
 ## Rakennusten sijoitus
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/04>
@@ -162,7 +162,7 @@ Ryhmittelyotsikko, vain [alakoodeja](../../looginenmalli/elinkaarisaannot.html#e
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
-{% include common/question.html.html content="Kuuluko tämä enemmän rakentamisen määrän alle?" %}
+{% include common/question.html content="Kuuluko tämä enemmän rakentamisen määrän alle?" %}
 
 ### Etäisyys naapuritontin rajasta
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0402>
@@ -210,7 +210,7 @@ Ilmaisee, että kaavakohteen alue on rakennusala. Mikäli rakennusaloja on mää
 Ilmaisee, että kaavakohteen geometria kuvaa paikkaa, jolla on rakennus tai johon voidaan rakentaa yksi tai useampi rakennus.
 {% include common/clause_end.html %}
 
-{% include common/question.html.html content="Voiko yhteen rakennuspaikkaan rakentaa useamman rakennuksen?" %}
+{% include common/question.html content="Voiko yhteen rakennuspaikkaan rakentaa useamman rakennuksen?" %}
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-rakennuspaikka-arvot" %}
 ```arvo```-attribuutilla ei saa olla arvoja.
@@ -222,7 +222,7 @@ Ilmaisee, että kaavakohteen geometria kuvaa paikkaa, jolla on rakennus tai joho
 Mikäli vähintään yksi lisätieto on annettu, saa rakennuspaikkaan rakentaa vain lisätietojen avulla rajattuja rakennustyyppejä.
 {% include common/clause_end.html %}
 
-{% include common/note.html.html content="Käytetään tavallisesti vain ranta-asemakaavoissa" %}
+{% include common/note.html content="Käytetään tavallisesti vain ranta-asemakaavoissa" %}
 
 ### Muu rakennusten sijoitukseen liittyvä määräys
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0406>

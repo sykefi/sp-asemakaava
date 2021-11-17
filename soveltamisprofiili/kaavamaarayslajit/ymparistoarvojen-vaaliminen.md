@@ -29,9 +29,9 @@ Kaikkien asemakaavojen tietoaineistojen sisältämien [Kaavamaarays](../../loogi
 Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
-{% include common/question.html.html content="Kulttuurihistoriallisen merkittävyyden kriteerit on monikossa, kun muut koodien otsikot ovat yksikössä, pitäisikö myös se vaihtaa yksikköön? Samat nimet ovat käytössä viitatuissa rakrek-koodistoissa." %}
+{% include common/question.html content="Kulttuurihistoriallisen merkittävyyden kriteerit on monikossa, kun muut koodien otsikot ovat yksikössä, pitäisikö myös se vaihtaa yksikköön? Samat nimet ovat käytössä viitatuissa rakrek-koodistoissa." %}
 
-{% include common/question.html.html content="Tämä pääluokka toimii nyt kaatoluokkana, koska sitä ei ole rajattu vain ryhmittelyotsikoksi. Onko tämä tarkoitus?" %}
+{% include common/question.html content="Tämä pääluokka toimii nyt kaatoluokkana, koska sitä ei ole rajattu vain ryhmittelyotsikoksi. Onko tämä tarkoitus?" %}
 
 ### Suojeltava alue tai alueen osa
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/090101>
@@ -81,9 +81,9 @@ Kaikkien asemakaavojen tietoaineistojen sisältämien [Kaavamaarays](../../loogi
 Muun tyyppiset lisätietojen arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
-{% include common/note.html.html content="Mikäli ympäristöarvojen perusteet ja merkittävyydet kuvataan tulevaisuudessa omina koodistoinaan, tulee lisätietojen sallittuja arvoja muuttaa viittaamaan niihin" %}
+{% include common/note.html content="Mikäli ympäristöarvojen perusteet ja merkittävyydet kuvataan tulevaisuudessa omina koodistoinaan, tulee lisätietojen sallittuja arvoja muuttaa viittaamaan niihin" %}
 
-{% include common/question.html.html content="Tämä pääluokka toimii nyt kaatoluokkana, koska sitä ei ole rajattu vain ryhmittelyotsikoksi. Onko tämä tarkoitus?" %}
+{% include common/question.html content="Tämä pääluokka toimii nyt kaatoluokkana, koska sitä ei ole rajattu vain ryhmittelyotsikoksi. Onko tämä tarkoitus?" %}
 
 ### Suojeltu puu
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/090201>
@@ -92,7 +92,7 @@ Muun tyyppiset lisätietojen arvot eivät ole sallittuja.
 Ilmaisee, että kaavakohde kuvaa suojellun puun.
 {% include common/clause_end.html %}
 
-{% include common/question.html.html content="Onko koodi tarkoituksella nimenomaan suojeltu, eikä suojeltava?" %}
+{% include common/question.html content="Onko koodi tarkoituksella nimenomaan suojeltu, eikä suojeltava?" %}
 
 ### Säilytettävä puu
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/090202>

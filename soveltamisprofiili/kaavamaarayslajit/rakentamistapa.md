@@ -104,7 +104,7 @@ Ilmaisee, että kaavakohteen geometria kuvaa alueen osaa, johon tulee rakentaa v
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
-{% include common/note.html.html content="Koodistossa otsikolla 'Ei saa rakentaa ikkunoita', tulisiko muuttaa?" %}
+{% include common/note.html content="Koodistossa otsikolla 'Ei saa rakentaa ikkunoita', tulisiko muuttaa?" %}
 
 
 ## Ääneneristävyys
@@ -180,7 +180,7 @@ Ilmaisee, että kaavakohteen aluelle sijoitettavat rakennukset voidaan toteuttaa
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
-{% include common/question.html.html content="Pitäisikö määräyslajia laventaa koskemaan mitä tahansa rakennuksia, ei vain asuinrakennuksia?" %}
+{% include common/question.html content="Pitäisikö määräyslajia laventaa koskemaan mitä tahansa rakennuksia, ei vain asuinrakennuksia?" %}
 
 ## Muu rakentamistapaan liittyvä määräys
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0513>
