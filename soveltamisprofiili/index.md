@@ -23,8 +23,7 @@ Kaavatietomallin mukainen asemakaava-aineisto koostuu [Kaava](../../looginenmall
 * [Koodistot](./koodistot.html)
 * Kaavamääräyslajien arvot ja lisätiedot
    * [Käyttötarkoitukset](./kaavamaarayslajit/kayttotarkoitukset.html)
-   * [Rakentamisen määrä](./kaavamaarayslajit/rakentamisen-maara.html)
-   * [Rakennusten sijoittaminen](./kaavamaarayslajit/rakennusten-sijoitus.html)
+   * [Rakentamisen määrä ja sijoittaminen](./kaavamaarayslajit/rakentamisen-maara-sijoittaminen.html)
    * [Rakentamistapa](./kaavamaarayslajit/rakentamistapa.html)
    * [Korkeusasemat](./kaavamaarayslajit/korkeusasema.html)
    * [Ulkoalueet](./kaavamaarayslajit/ulkoalueet.html)

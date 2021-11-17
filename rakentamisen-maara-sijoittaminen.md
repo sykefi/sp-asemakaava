@@ -5,9 +5,10 @@ description: ""
 id: "rakentamisen-maara"
 status: "Ehdotus"
 ---
-# Kaavamääräyslajit - rakentamisen määrä
+# Kaavamääräyslajit - rakentamisen määrä ja sijoittaminen
 {:.no_toc}
 
+## Rakentamisen määrä
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji/code/03>
 
 Ryhmittelyotsikko, vain [alakoodeja](../../looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar) käytetään.
@@ -15,7 +16,7 @@ Ryhmittelyotsikko, vain [alakoodeja](../../looginenmalli/elinkaarisaannot.html#e
 1. 
 {:toc}
 
-## Sallittu kerrosala
+### Sallittu kerrosala
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0301>
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-sallittu-kerrosala-arvot" %}
@@ -30,7 +31,7 @@ Ryhmittelyotsikko, vain [alakoodeja](../../looginenmalli/elinkaarisaannot.html#e
 
 Mikäli sallittua rakentamisen määrää ei ole jaoteltu käyttötarkoituksittain, ei lisätietoja käytetä.
 
-## Sallittu rakennustilavuus
+### Sallittu rakennustilavuus
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0302>
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-sallittu-rakennustilavuus-arvot" %}
@@ -49,7 +50,7 @@ Mikäli sallittua rakentamisen määrää ei ole jaoteltu käyttötarkoituksitta
 
 {% include common/question.html.html content="Onko järkevää ilmaista sallittu rakennustilavuus eri kaavamääräyslajina kuin sallittu kerrosala. Nykyisellään rakenne on identtinen, vain yksiköt eroavat" %}
 
-## Tehokkuusluku
+### Tehokkuusluku
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0303>
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-tehokkuusluku-arvot" %}
@@ -62,7 +63,7 @@ Mikäli sallittua rakentamisen määrää ei ole jaoteltu käyttötarkoituksitta
 
 {% include common/question.html.html content="Pitäisikö määräyksen nimi olla Rakennustehokkuus, tehokkuusluku on tapa ilmaista käsite numerona?" %}
 
-## Maanpäällinen kerrosluku
+### Maanpäällinen kerrosluku
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0304>
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-maanpaallinen-kerrosluku-arvot" %}
@@ -73,7 +74,7 @@ Mikäli sallittua rakentamisen määrää ei ole jaoteltu käyttötarkoituksitta
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
-## Maanalainen kerrosluku
+### Maanalainen kerrosluku
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0305>
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-maanalainen-kerrosluku-arvot" %}
@@ -85,7 +86,7 @@ Mikäli sallittua rakentamisen määrää ei ole jaoteltu käyttötarkoituksitta
 {% include common/clause_end.html %}
 
 
-## Kellarin sallittu kerrosalaosuus
+### Kellarin sallittu kerrosalaosuus
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0306>
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-kellarin-sallittu-kerrosalaosuus-arvot" %}
@@ -98,7 +99,7 @@ Mikäli sallittua rakentamisen määrää ei ole jaoteltu käyttötarkoituksitta
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
-## Ullakon sallittu kerrosalaosuus
+### Ullakon sallittu kerrosalaosuus
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0307>
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-ullakon-sallittu-kerrosalaosuus-arvot" %}
@@ -111,7 +112,7 @@ Mikäli sallittua rakentamisen määrää ei ole jaoteltu käyttötarkoituksitta
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
-## Rakennuspaikkojen määrä
+### Rakennuspaikkojen määrä
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0308>
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-rakennuspaikkojen-maara-arvot" %}
@@ -126,7 +127,7 @@ Mikäli vähintään yksi lisätieto on annettu, koskee rakennuspaikkojen lukum�
 
 {% include common/note.html.html content="Käytetään tavallisesti vain ranta-asemakaavoissa" %}
 
-## Lisärakennusoikeus
+### Lisärakennusoikeus
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0309>
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-lisarakennusoikeus-arvot" %}
@@ -144,3 +145,92 @@ Mikäli vähintään yksi lisätieto on annettu, koskee rakennuspaikkojen lukum�
 
 {% include common/question.html.html content="Miten lisärakennusoikeus eroaa käyttötarkoituskohtaisesti sallitusta kerrosalasta tai rakennustilavuudesta? Missä tapauksissa lisärakennusoikeutta käytettäisiin? Nykyisellään rakenne on lähes identtinen" %}
 
+## Rakennusten sijoitus
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/04>
+
+Ryhmittelyotsikko, vain [alakoodeja](../../looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar) käytetään.
+
+
+### Rakentamisen suhde alueen pinta-alaan
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0401>
+
+{% include common/clause_start.html type="req" id="prof-ak/vaat-rak-suhde-alueen-pinta-alaan-arvot" %}
+```arvo```-attribuutin arvona saa esiintyä joko yksi [NumeerinenArvo](../../looginenmalli/dokumentaatio/#numeerinenarvo) tai yksi [NumeerinenArvovali](../../looginenmalli/dokumentaatio/#numeerinenarvovali), joka kertoo kuinka suuren osan sen kaavakohteen pinta-alasta, johon kaavamääräys on liitetty, saa käyttää rakentamiseen. Numeerisen arvon tai arvovälin minimi- ja maksimiarvojen on toteutettava [Real](../../looginenmalli/dokumentaatio/#real)-rajapinta. Ilmaistaan prosenttilukuna (```%```). Muun tyyppiset arvot eivät ole sallittuja.
+{% include common/clause_end.html %}
+
+{% include common/clause_start.html type="req" id="prof-ak/vaat-rak-suhde-alueen-pinta-alaan-lisatiedot" %}
+```lisatieto```-attribuutilla ei saa olla arvoja.
+{% include common/clause_end.html %}
+
+{% include common/question.html.html content="Kuuluko tämä enemmän rakentamisen määrän alle?" %}
+
+### Etäisyys naapuritontin rajasta
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0402>
+
+{% include common/clause_start.html type="req" id="prof-ak/vaat-etaisyys-naapuritontin-rajasta-arvot" %}
+```arvo```-attribuutin mahdolliset arvot ovat seuraavat:
+* Yksi [NumeerinenArvo](../../looginenmalli/dokumentaatio/#numeerinenarvo), joka kertoo rakennusten vähimmäisetäisyyden naapuritontin rajasta sen kaavakohteen alueella, johon kaavamääräys on liitetty. Numeerisen arvon on toteutettava [Real](../../looginenmalli/dokumentaatio/#real)-rajapinta. Yksikkönä metri (```m```).
+* Nolla tai useampi [GeometriaArvo](../../looginenmalli/dokumentaatio/#geometriaarvo), joka on päällekkäin sen kaavakohteen geometrian osan kanssa, jonka puoleista osaa etäisyysvaatimus koskee.
+{% include common/clause_end.html %}
+
+{% include common/clause_start.html type="req" id="prof-ak/vaat-etaisyys-naapuritontin-rajasta-lisatiedot" %}
+```lisatieto```-attribuutilla ei saa olla arvoja.
+{% include common/clause_end.html %}
+
+### Rakennusala
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0403>
+
+{% include common/clause_start.html type="req" id="prof-ak/vaat-rakennusala-maar" %}
+Ilmaisee, että kaavakohteen alue on rakennusala. Mikäli rakennusaloja on määritelty jonkin suuremman kaavakohteen alueen sisälle, tulee rakennukset suuremman kaavakohteen alueella rakentaa siten, että ne sijoittuvat kokonaan jokin rakennusalan sisälle.
+{% include common/clause_end.html %}
+
+{% include common/clause_start.html type="req" id="prof-ak/vaat-rakennusala-arvot" %}
+```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi [KoodiArvo](../../looginenmalli/dokumentaatio/#koodiarvo), jotka kuvaa rakennusalalle rakennettavaksi tarkoitetun rakennuksen lajin viittaamalla koodistoon [Rakennusluokitus 2018](http://uri.suomi.fi/codelist/jhs/rakennus_1_20180712).
+{% include common/clause_end.html %}
+
+{% include common/clause_start.html type="req" id="prof-ak/vaat-rakennusala-lisatiedot" %}
+```lisatieto```-attribuutilla ei saa olla arvoja.
+{% include common/clause_end.html %}
+
+### Rakennettava kiinni rajaan
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0404>
+
+{% include common/clause_start.html type="req" id="prof-ak/vaat-rakennettava-kiinni-rajaan-arvot" %}
+```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi [GeometriaArvo](../../looginenmalli/dokumentaatio/#geometriaarvo), joka on päällekkäin sen kaavakohteen geometrian osan kanssa, johon alueen rakennukset tulee rakentaa kiinni. Muun tyyppiset arvot eivät ole sallittuja.
+{% include common/clause_end.html %}
+
+{% include common/clause_start.html type="req" id="prof-ak/vaat-rakennettava-kiinni-rajaan-lisatiedot" %}
+```lisatieto```-attribuutilla ei saa olla arvoja.
+{% include common/clause_end.html %}
+
+### Rakennuspaikka
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0405>
+
+{% include common/clause_start.html type="req" id="prof-ak/vaat-rakennuspaikka-maar" %}
+Ilmaisee, että kaavakohteen geometria kuvaa paikkaa, jolla on rakennus tai johon voidaan rakentaa yksi tai useampi rakennus.
+{% include common/clause_end.html %}
+
+{% include common/question.html.html content="Voiko yhteen rakennuspaikkaan rakentaa useamman rakennuksen?" %}
+
+{% include common/clause_start.html type="req" id="prof-ak/vaat-rakennuspaikka-arvot" %}
+```arvo```-attribuutilla ei saa olla arvoja.
+{% include common/clause_end.html %}
+
+{% include common/clause_start.html type="req" id="prof-ak/vaat-rakennuspaikka-lisatiedot" %}
+```lisatieto```-attribuutin arvoina saa esiintyä nolla tai useampi [Lisatieto](../../looginenmalli/dokumentaatio/#lisatieto), jonka laji on [Käyttötarkoituskohdistus](http://uri.suomi.fi/codelist/rytj/RY_Lisatiedonlaji_AK/code/02), jolla on täsmälleen yksi ```arvo``` lajia [KoodiArvo](../../looginenmalli/dokumentaatio/#koodiarvo), joka viittaa johonkin [Rakennusluokitus 2018](http://uri.suomi.fi/codelist/jhs/rakennus_1_20180712)-koodiston koodiin. Muun tyyppiset arvot eivät ole sallittuja.
+
+Mikäli vähintään yksi lisätieto on annettu, saa rakennuspaikkaan rakentaa vain lisätietojen avulla rajattuja rakennustyyppejä.
+{% include common/clause_end.html %}
+
+{% include common/note.html.html content="Käytetään tavallisesti vain ranta-asemakaavoissa" %}
+
+### Muu rakennusten sijoitukseen liittyvä määräys
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0406>
+
+{% include common/clause_start.html type="req" id="prof-ak/vaat-muu-rakennusten-sijoitus-arvot" %}
+```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
+{% include common/clause_end.html %}
+
+{% include common/clause_start.html type="req" id="prof-ak/vaat-muu-rakennusten-sijoitus-lisatiedot" %}
+```lisatieto```-attribuutilla ei saa olla arvoja.
+{% include common/clause_end.html %}
