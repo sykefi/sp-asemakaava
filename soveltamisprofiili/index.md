@@ -14,9 +14,9 @@ Tämän dokumentin vaatimukset ja suositukset muodostavat Kaavatietomallin loogi
 
 Tämän muodollisen dokumentin tietoja täydentää [Asemakaavan kaavamääräysopas]() **TODO:LINKKI**, joka sisältää käytännön esimerkkejä Kaavatietomallin soveltamisesta asemakaavoituksen kaavoitusratkaisuihin.
 
-{% include clause_start.html type="req" id="prof-ak/vaat-asemakaava-aineisto-maar" %}
+{% include common/clause_start.html type="req" id="prof-ak/vaat-asemakaava-aineisto-maar" %}
 Kaavatietomallin mukainen asemakaava-aineisto koostuu [Kaava](../../looginenmalli/dokumentaatio/#kaava)-luokan instansseista, joiden ```laji```-attribuutin arvo on jokin [Kaavalajit]()-koodiston koodin [Asemakaava](http://uri.suomi.fi/codelist/rytj/RY_Kaavalaji/code/3) [alakoodeista](../../looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar), sekä näihin instansseihin Kaavatietomallin mukaisesti liittyvistä muiden luokkien instansseista.
-{% include clause_end.html %}
+{% include common/clause_end.html %}
 
 ## Sisällys
 
