@@ -1,6 +1,6 @@
 ---
 layout: "default"
 description: ""
-id: "rakentamisen-maara-sijoittamien"
+id: "rakentamisen-maara-sijoittaminen"
 ---
 # Rakentamisen määrä ja sijoittaminen
