@@ -1,6 +1,5 @@
 ---
 layout: "default"
-title: "Kaavatietomallin soveltamisprofiili - asemakaava - korkeusasema"
 description: ""
 id: "korkeusasema"
 status: "Ehdotus"

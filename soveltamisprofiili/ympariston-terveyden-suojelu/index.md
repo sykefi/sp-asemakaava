@@ -1,8 +1,7 @@
 ---
 layout: "default"
-title: "Kaavatietomallin soveltamisprofiili - asemakaava - ympäristön ja terveyden suojelu"
 description: ""
-id: "ympariston-ja-terveyden-suojelu"
+id: "ympariston-terveyden-suojelu"
 status: "Ehdotus"
 ---
 # Kaavamääräyslajit - ympäristön ja terveyden suojelu

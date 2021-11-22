@@ -1,6 +1,5 @@
 ---
 layout: "default"
-title: "Kaavatietomallin soveltamisprofiili - asemakaava - rakentamistapa"
 description: ""
 id: "rakentamistapa"
 status: "Ehdotus"

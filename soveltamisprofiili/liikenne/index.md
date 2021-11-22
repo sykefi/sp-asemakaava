@@ -1,6 +1,5 @@
 ---
 layout: "default"
-title: "Kaavatietomallin soveltamisprofiili - asemakaava - liikenne"
 description: ""
 id: "liikenne"
 status: "Ehdotus"

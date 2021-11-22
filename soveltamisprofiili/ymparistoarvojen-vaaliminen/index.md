@@ -1,6 +1,5 @@
 ---
 layout: "default"
-title: "Kaavatietomallin soveltamisprofiili - asemakaava - ympäristöarvojen vaaliminen"
 description: ""
 id: "ymparistoarvojen-vaaliminen"
 status: "Ehdotus"

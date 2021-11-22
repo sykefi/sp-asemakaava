@@ -1,6 +1,5 @@
 ---
 layout: "default"
-title: "Kaavatietomallin soveltamisprofiili - asemakaava - yhdyskuntatekninen huolto"
 description: ""
 id: "yhdyskuntatekninen-huolto"
 status: "Ehdotus"

@@ -1,8 +1,7 @@
 ---
 layout: "default"
-title: "Kaavatietomallin soveltamisprofiili - asemakaava - rakentamisen määrä"
 description: ""
-id: "rrakentamisen-maara-sijoittaminen"
+id: "rakentamisen-maara-sijoittaminen"
 status: "Ehdotus"
 ---
 # Kaavamääräyslajit - rakentamisen määrä ja sijoittaminen

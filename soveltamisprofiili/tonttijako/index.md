@@ -1,6 +1,5 @@
 ---
 layout: "default"
-title: "Kaavatietomallin soveltamisprofiili - asemakaava - tonttijako"
 description: ""
 id: "tonttijako"
 status: "Ehdotus"

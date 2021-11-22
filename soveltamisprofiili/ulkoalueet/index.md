@@ -1,6 +1,5 @@
 ---
 layout: "default"
-title: "Kaavatietomallin soveltamisprofiili - asemakaava - ulkoalueet"
 description: ""
 id: "ulkoalueet"
 status: "Ehdotus"

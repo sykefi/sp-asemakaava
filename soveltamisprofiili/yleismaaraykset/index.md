@@ -1,6 +1,5 @@
 ---
 layout: "default"
-title: "Kaavatietomallin soveltamisprofiili - asemakaava - yleismääräykset"
 description: ""
 id: "yleismaaraykset"
 status: "Ehdotus"

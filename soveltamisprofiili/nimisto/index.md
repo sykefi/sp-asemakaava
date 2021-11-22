@@ -1,6 +1,5 @@
 ---
 layout: "default"
-title: "Kaavatietomallin soveltamisprofiili - asemakaava - nimistö"
 description: ""
 id: "nimisto"
 status: "Ehdotus"
