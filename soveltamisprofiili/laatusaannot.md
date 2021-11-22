@@ -1,6 +1,5 @@
 ---
 layout: "default"
-title: "Kaavatietomallin soveltamisprofiili - laatusäännöt"
 description: ""
 id: "laatusaannot"
 status: "Ehdotus"

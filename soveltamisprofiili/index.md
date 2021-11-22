@@ -1,6 +1,5 @@
 ---
 layout: "default"
-title: "Kaavatietomallin soveltamisprofiili - asemakaava"
 description: ""
 id: "johdanto"
 status: "Ehdotus"
