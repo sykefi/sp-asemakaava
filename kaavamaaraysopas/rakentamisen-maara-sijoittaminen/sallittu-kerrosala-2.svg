@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="171.66056 169 128.52786 93.448" width="128.52786" height="93.448">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="12" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.19.2\n2021-12-07 11:14:10 +0000</metadata>
+  <g id="Canvas_1" stroke-dasharray="none" fill="none" stroke="none" stroke-opacity="1" fill-opacity="1">
+    <title>Canvas 1</title>
+    <rect fill="white" x="171.66056" y="169" width="128.52786" height="93.448"/>
+    <g id="Canvas_1_Layer_1">
+      <title>Layer 1</title>
+      <g id="Group_24">
+        <g id="Graphic_2">
+          <path d="M 172.16056 209.776 L 247.9087 169.5 L 262.9913 197.86625 L 187.24316 238.14225 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_10"/>
+      </g>
+      <g id="Group_22">
+        <g id="Group_15">
+          <g id="Graphic_3">
+            <text transform="translate(229.4923 238.5)" fill="black">
+              <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">1234m</tspan>
+            </text>
+          </g>
+          <g id="Graphic_4">
+            <text transform="translate(279.4923 238.5)" fill="black">
+              <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">2</tspan>
+            </text>
+          </g>
+        </g>
+        <g id="Graphic_19">
+          <path d="M 224.96818 233.5 L 290.68843 233.5 C 295.659 233.5 299.68843 237.52944 299.68843 242.5 L 299.68843 252.948 C 299.68843 257.91856 295.659 261.948 290.68843 261.948 L 224.96818 261.948 C 219.99762 261.948 215.96818 257.91856 215.96818 252.948 L 215.96818 242.5 C 215.96818 237.52944 219.99762 233.5 224.96818 233.5 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+      </g>
+      <g id="Line_26">
+        <line x1="244.78702" y1="233.5" x2="228.7895" y2="216.05166" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_32">
+        <text transform="translate(220.96818 183.5)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">#45</tspan>
+        </text>
+      </g>
+      <g id="Graphic_35">
+        <text transform="translate(186.5 205)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="20250468e-20" y="15">R21</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
