@@ -1,2 +1,2 @@
-# ktm-asemakaava
+# sp-asemakaava
 Kaavatietomallin soveltamisprofiili - asemakaava
