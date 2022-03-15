@@ -9,7 +9,7 @@ status: "Ehdotus"
 
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/12>
 
-Ryhmittelyotsikko, vain [alakoodeja](../../looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar) käytetään.
+Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar" title="alakoodeja" %} käytetään.
 
 1. 
 {:toc}
@@ -19,7 +19,7 @@ Ryhmittelyotsikko, vain [alakoodeja](../../looginenmalli/elinkaarisaannot.html#e
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/1201>
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-alin-painovoimainen-viemarointitaso-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä yksi [Korkeuspiste](../../looginenmalli/dokumentaatio/#korkeuspiste), joka kertoo alimman painovoimaisen viemäröintitason korkeuden sovitun pystysuuntaisen koordinaatiston arvona. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#korkeuspiste" title="Korkeuspiste" %} joka kertoo alimman painovoimaisen viemäröintitason korkeuden sovitun pystysuuntaisen koordinaatiston arvona. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-alin-painovoimainen-viemarointitaso-lisatiedot" %}
@@ -30,7 +30,7 @@ Ryhmittelyotsikko, vain [alakoodeja](../../looginenmalli/elinkaarisaannot.html#e
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/1202>
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-alin-aurinkokennojen-sijoittumistaso-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä yksi [Korkeuspiste](../../looginenmalli/dokumentaatio/#korkeuspiste), joka kertoo alimman aurinkokennojen sijoittumistason korkeuden sovitun pystysuuntaisen koordinaatiston arvona. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#korkeuspiste" title="Korkeuspiste" %} joka kertoo alimman aurinkokennojen sijoittumistason korkeuden sovitun pystysuuntaisen koordinaatiston arvona. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-alin-alin-aurinkokennojen-sijoittumistaso-lisatiedot" %}
@@ -45,7 +45,7 @@ Ilmaisee, että kaavakohde kuvaa alueen, jolle on laadittava hulevesisuunnitelma
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-hulevesisuunnitelma-laadittava-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-hulevesisuunnitelma-laadittava-lisatiedot" %}
@@ -71,7 +71,7 @@ Ilmaisee, että kaavakohde kuvaa alueen, joka on liitettävä kaukolämpöverkko
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/1205>
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-hulevesien-imeyttaminen-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka kuvaa hulevesien imeyttämisen periaatteen tai vaatimuksen. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka kuvaa hulevesien imeyttämisen periaatteen tai vaatimuksen. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-hulevesien-imeyttaminen-lisatiedot" %}
@@ -82,7 +82,7 @@ Ilmaisee, että kaavakohde kuvaa alueen, joka on liitettävä kaukolämpöverkko
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/1206>
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-muu-yhdyskuntatekninen-huolto-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka kuvaa kaavamääräyksen. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka kuvaa kaavamääräyksen. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-muu-yhdyskuntatekninen-huolto-lisatiedot" %}

@@ -9,7 +9,7 @@ status: "Ehdotus"
 
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/14>
 
-Ryhmittelyotsikko, vain [alakoodeja](../../looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar) käytetään.
+Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar" title="alakoodeja" %} käytetään.
 
 1. 
 {:toc}
@@ -18,7 +18,7 @@ Ryhmittelyotsikko, vain [alakoodeja](../../looginenmalli/elinkaarisaannot.html#e
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/1401>
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-kadun-tien-nimi-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), jolla annetaan kaavakohteen kuvaaman kadun tai tien nimi. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), jolla annetaan kaavakohteen kuvaaman kadun tai tien nimi. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-kadun-tien-nimi-lisatiedot" %}
@@ -29,7 +29,7 @@ Ryhmittelyotsikko, vain [alakoodeja](../../looginenmalli/elinkaarisaannot.html#e
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/1402>
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-torin-aukion-nimi-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), jolla annetaan kaavakohteen kuvaaman torin tai aukion nimi. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), jolla annetaan kaavakohteen kuvaaman torin tai aukion nimi. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-torin-aukion-nimi-lisatiedot" %}
@@ -40,7 +40,7 @@ Ryhmittelyotsikko, vain [alakoodeja](../../looginenmalli/elinkaarisaannot.html#e
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/1403>
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-yleisen-alueen-nimi-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), jolla annetaan kaavakohteen kuvaaman torin tai aukion nimi. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), jolla annetaan kaavakohteen kuvaaman torin tai aukion nimi. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-yleisen-alueen-nimi-lisatiedot" %}
@@ -52,7 +52,7 @@ Ryhmittelyotsikko, vain [alakoodeja](../../looginenmalli/elinkaarisaannot.html#e
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/1404>
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-kaupungin-kunnan-osan-nimi-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), jolla annetaan kaavakohteen kuvaaman kaupungin- tai kunnanosan nimi. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), jolla annetaan kaavakohteen kuvaaman kaupungin- tai kunnanosan nimi. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-kaupungin-kunnan-osan-nimi-lisatiedot" %}
@@ -63,7 +63,7 @@ Ryhmittelyotsikko, vain [alakoodeja](../../looginenmalli/elinkaarisaannot.html#e
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/1405>
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-korttelinumero-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä yksi [NumeerinenArvo](../../looginenmalli/dokumentaatio/#numeerinenarvo), jolla annetaan kaavakohteen kuvaaman korttelin korttelinumero. Numeerisen arvon on toteutettava [Integer](../../looginenmalli/dokumentaatio/#integer)-rajapinta. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#numeerinenarvo" title="NumeerinenArvo" %} jolla annetaan kaavakohteen kuvaaman korttelin korttelinumero. Numeerisen arvon on toteutettava {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#integer" title="Integer" %}-rajapinta. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-korttelinumero-lisatiedot" %}
@@ -74,7 +74,7 @@ Ryhmittelyotsikko, vain [alakoodeja](../../looginenmalli/elinkaarisaannot.html#e
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/1406>
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-muu-nimi-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), jolla annetaan kaavakohteen kuvaaman kohteen nimi. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), jolla annetaan kaavakohteen kuvaaman kohteen nimi. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-muu-nimi-lisatiedot" %}
