@@ -9,7 +9,7 @@ status: "Ehdotus"
 
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/10>
 
-Ryhmittelyotsikko, vain [alakoodeja](../../looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar) käytetään.
+Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar" title="alakoodeja" %} käytetään.
 
 1. 
 {:toc}
@@ -37,7 +37,7 @@ Ilmaisee, että kaavakohde kuvaa alueen, josta on tarkoitus muodostaa tontti.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-esitontti-arvot" %}
-```arvo```-attribuutin arvona saa esiintyä nolla tai useampi [TunnusArvo](../../looginenmalli/dokumentaatio/#tunnusarvo), jotka kuvaavat tulevan tontin pysyviä tunnuksia tietojärjestelmissä tai rekistereissä.
+```arvo```-attribuutin arvona saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tunnusarvo" title="TunnusArvo" %} jotka kuvaavat tulevan tontin pysyviä tunnuksia tietojärjestelmissä tai rekistereissä.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-esitontti-lisatiedot" %}
