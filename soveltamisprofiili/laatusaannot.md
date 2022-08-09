@@ -6,7 +6,7 @@ status: "Ehdotus"
 ---
 # Laatusäännöt
 
-Nämä laatusäännöt laajentavat Kaavatietomallin [yleisiä laatusääntöjä](../../looginenmalli/laatusaannot.html).
+Nämä laatusäännöt laajentavat Kaavatietomallin [yleisiä laatusääntöjä](https://tietomallit.ymparisto.fi/kaavatiedot/v1.1/looginenmalli/laatusaannot.html).
 
 ### Käyttötarkoitusalueet
 
