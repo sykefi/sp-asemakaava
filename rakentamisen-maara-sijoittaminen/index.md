@@ -222,14 +222,3 @@ Mikäli vähintään yksi lisätieto on annettu, saa rakennuspaikkaan rakentaa v
 {% include common/clause_end.html %}
 
 {% include common/note.html content="Käytetään tavallisesti vain ranta-asemakaavoissa" %}
-
-### Muu rakennusten sijoitukseen liittyvä määräys
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0406>
-
-{% include common/clause_start.html type="req" id="prof-ak/vaat-muu-rakennusten-sijoitus-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-ak/vaat-muu-rakennusten-sijoitus-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
