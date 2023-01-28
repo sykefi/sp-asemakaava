@@ -69,10 +69,6 @@ Ilmaisee, että kaavakohteen geometria kuvaa rakennukseen liittyvää paikkaa, j
 ## Valokatteinen tila
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0505>
 
-{% include common/clause_start.html type="req" id="prof-ak/vaat-valokatteinen-tila-maar" %}
-Ilmaisee, että kaavakohteen geometria kuvaa alueen osaa, johon tulee rakentaa valokatteinen tila.
-{% include common/clause_end.html %}
-
 {% include common/clause_start.html type="req" id="prof-ak/vaat-valokatteinen-tila-arvot" %}
 ```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
@@ -93,7 +89,7 @@ Ilmaisee, että kaavakohteen geometria kuvaa alueen osaa, johon tulee rakentaa v
 {% include common/clause_end.html %}
 
 ## Ikkunaton seinä
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0507>
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/ikkunatonSeina>
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-ei-ikkunoita-arvot" %}
 ```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#geometriaarvo" title="GeometriaArvo" %} joka on päällekkäin sen kaavakohteen geometrian osan kanssa, jonka puoleisten rakennusten seiniin ei saa sijoittaa ikkunoita. Muun tyyppiset arvot eivät ole sallittuja.
@@ -102,9 +98,6 @@ Ilmaisee, että kaavakohteen geometria kuvaa alueen osaa, johon tulee rakentaa v
 {% include common/clause_start.html type="req" id="prof-ak/vaat-ei-ikkunoita-lisatiedot" %}
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
-
-{% include common/note.html content="Koodistossa otsikolla 'Ei saa rakentaa ikkunoita', tulisiko muuttaa?" %}
-
 
 ## Ääneneristävyys
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0508>
@@ -150,11 +143,7 @@ Ilmaisee, että kaavakohteen aluella rakennuksiin tai niiden tietyille sivuille 
 {% include common/clause_end.html %}
 
 ## Viherkatto
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0511>
-
-{% include common/clause_start.html type="req" id="prof-ak/vaat-viherkatto-maar" %}
-Ilmaisee, että kaavakohteen aluelle sijoitettavaan rakennukseen tai sen osaan on rakennettava viherkatto.
-{% include common/clause_end.html %}
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/viherkatto>
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-viherkatto-arvot" %}
 ```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
@@ -163,20 +152,3 @@ Ilmaisee, että kaavakohteen aluelle sijoitettavaan rakennukseen tai sen osaan o
 {% include common/clause_start.html type="req" id="prof-ak/vaat-viherkatto-lisatiedot" %}
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
-
-## Kelluvat asuinrakennukset
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0512>
-
-{% include common/clause_start.html type="req" id="prof-ak/vaat-kelluvat-rakennukset-maar" %}
-Ilmaisee, että kaavakohteen aluelle sijoitettavat rakennukset voidaan toteuttaa veden päällä kelluvina.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-ak/vaat-kelluvat-rakennukset-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-ak/vaat-kelluvat-rakennukset-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
-
-{% include common/question.html content="Pitäisikö määräyslajia laventaa koskemaan mitä tahansa rakennuksia, ei vain asuinrakennuksia?" %}
