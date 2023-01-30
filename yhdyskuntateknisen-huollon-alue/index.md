@@ -64,14 +64,3 @@ Ilmaisee, että kaavakohde kuvaa alueen, joka on liitettävä kaukolämpöverkko
 {% include common/clause_start.html type="req" id="prof-ak/vaat-liitettava-kaukolampoverkkoon-lisatiedot" %}
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
-
-## Hulevesien imeyttämisen periaate tai vaatimus
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/1205>
-
-{% include common/clause_start.html type="req" id="prof-ak/vaat-hulevesien-imeyttaminen-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka kuvaa hulevesien imeyttämisen periaatteen tai vaatimuksen. Muun tyyppiset arvot eivät ole sallittuja.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-ak/vaat-hulevesien-imeyttaminen-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
