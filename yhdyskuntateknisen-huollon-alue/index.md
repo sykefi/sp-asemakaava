@@ -1,22 +1,20 @@
 ---
 layout: "default"
 description: ""
-id: "yhdyskuntatekninen-huolto"
+id: "yhdyskuntateknisen-huollon-alue"
 status: "Ehdotus"
 ---
 # Kaavamääräyslajit - yhdyskuntatekninen huolto
 {:.no_toc}
 
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/12>
-
-Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar" title="alakoodeja" %} käytetään.
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/yhdyskuntateknisenHuollonAlue>
 
 1. 
 {:toc}
 
 
 ## Alin painovoimainen viemäröintitaso
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/1201>
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/alinPainovoimainenViemarointitaso>
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-alin-painovoimainen-viemarointitaso-arvot" %}
 ```arvo```-attribuutin arvoina saa esiintyä yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#korkeuspiste" title="Korkeuspiste" %} joka kertoo alimman painovoimaisen viemäröintitason korkeuden sovitun pystysuuntaisen koordinaatiston arvona. Muun tyyppiset arvot eivät ole sallittuja.
@@ -77,4 +75,3 @@ Ilmaisee, että kaavakohde kuvaa alueen, joka on liitettävä kaukolämpöverkko
 {% include common/clause_start.html type="req" id="prof-ak/vaat-hulevesien-imeyttaminen-lisatiedot" %}
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
-
