@@ -25,7 +25,6 @@ Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot"
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
-
 ## Ajanmukaisuuden arvioinnin aikaraja
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/1102>
 
@@ -51,10 +50,6 @@ Ilmaisee, että kaavakohde kuvaa alueen, jota koskevat sitovat rakentamistapaohj
 ```arvo```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
-{% include common/clause_start.html type="req" id="prof-ak/vaat-sitovat-rakentamistapaohjeet-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
-
 {% include common/clause_start.html type="rec" id="prof-ak/suos-sitovat-rakentamistapaohjeet-liittyva-asiakirja" %}
 Rakentamistapaohje on suositeltavaa linkittää kaavamääräykseen ```liittyvaAsiakirja```-assosiaation avulla.
 {% include common/clause_end.html %}
@@ -68,10 +63,6 @@ Ilmaisee, että kaavakohde kuvaa alueen, jota koskevat ei-sitovat rakentamistapa
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-ei-sitovat-rakentamistapaohjeet-arvot" %}
 ```arvo```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-ak/vaat-ei-sitovat-rakentamistapaohjeet-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="rec" id="prof-ak/suos-ei-sitovat-rakentamistapaohjeet-liittyva-asiakirja" %}
