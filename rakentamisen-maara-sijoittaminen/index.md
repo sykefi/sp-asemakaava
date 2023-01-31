@@ -148,19 +148,6 @@ Mikäli vähintään yksi lisätieto on annettu, koskee rakennuspaikkojen lukum�
 Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar" title="alakoodeja" %} käytetään.
 
 
-### Rakentamisen suhde alueen pinta-alaan
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0401>
-
-{% include common/clause_start.html type="req" id="prof-ak/vaat-rak-suhde-alueen-pinta-alaan-arvot" %}
-```arvo```-attribuutin arvona saa esiintyä joko yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#numeerinenarvo" title="NumeerinenArvo" %} tai yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#numeerinenarvovali" title="NumeerinenArvovali" %} joka kertoo kuinka suuren osan sen kaavakohteen pinta-alasta, johon kaavamääräys on liitetty, saa käyttää rakentamiseen. Numeerisen arvon tai arvovälin minimi- ja maksimiarvojen on toteutettava {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#real" title="Real" %}-rajapinta. Ilmaistaan prosenttilukuna (```%```). Muun tyyppiset arvot eivät ole sallittuja.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-ak/vaat-rak-suhde-alueen-pinta-alaan-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
-
-{% include common/question.html content="Kuuluko tämä enemmän rakentamisen määrän alle?" %}
-
 ### Etäisyys naapuritontin rajasta
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0402>
 
