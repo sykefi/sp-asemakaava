@@ -16,6 +16,10 @@ Tyypiltään suuremaisille kaavamääräyksille on ```arvo```-attribuutin arvona
 
 Poikkeuksena ovat [Nimistö]((http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/nimisto))-luokkaan kuuluvat kaavamääräyskoodit, joiden arvon tulee olla tyyppiä {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %}
 
+{% include common/clause_start.html type="req" id="prof-ak/suureet-lisatiedot" %}
+```lisatieto```-attribuutilla ei saa olla arvoja.
+{% include common/clause_end.html %}
+
 ## Rakentamisen tapa
 
 ### Kattokaltevuus
@@ -25,10 +29,6 @@ Poikkeuksena ovat [Nimistö]((http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/
 ```arvo```-attribuutin arvoja saa esiintyä yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#numeerinenarvo" title="NumeerinenArvo" %} tai yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#numeerinenarvovali" title="NumeerinenArvovali" %} joka kertoo rakennusten katon sallitun kaltevuuden asteina (```deg```) sen kaavakohteen alueella, johon kaavamääräys on liitetty. Numeerisen arvon tai arvovälin minimi- ja maksimiarvojen on toteutettava {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#real" title="Real" %}-rajapinta. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
-{% include common/clause_start.html type="req" id="prof-ak/vaat-kattokaltevuus-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
-
 ### Rakennuksen harjan suunta
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/rakennuksenHarjanSuunta>
 
@@ -36,12 +36,8 @@ Poikkeuksena ovat [Nimistö]((http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/
 ```arvo```-attribuutin arvona saa esiintyä yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#numeerinenarvo" title="NumeerinenArvo" %} tai yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#numeerinenarvovali" title="NumeerinenArvovali" %} jotka kertovat rakennusten katon harjan sallitun kompassisuunnan asteina (```deg```) sen kaavakohteen alueella, johon kaavamääräys on liitetty. Numeerisen arvon tai arvovälin minimi- ja maksimiarvojen on toteutettava {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#real" title="Real" %}-rajapinta. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
-{% include common/clause_start.html type="req" id="prof-ak/vaat-harjasuunta-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
-
 ### Ääneneristävyys
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0508>
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/aaneneristavyys>
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-aaneneristavyys-arvot" %}
 ```arvo```-attribuutin mahdolliset arvot ovat seuraavat:
@@ -49,20 +45,15 @@ Poikkeuksena ovat [Nimistö]((http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/
 * Nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#geometriaarvo" title="GeometriaArvo" %} joka on päällekkäin sen kaavakohteen geometrian osan kanssa, jonka puoleisia sivuja kaavamääräys koskee.
 {% include common/clause_end.html %}
 
-{% include common/clause_start.html type="req" id="prof-ak/vaat-aaneneristavyys-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
-
+Esimerkki:
+<br>
+* Kaavakohde, jolla määräyksinä [Melueste](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/melueste) sekä [Ääneneristävyys](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/aaneneristavyys) ```arvo```lla 20 (desibeliä).
 
 ### Vihertehokkuus
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/vihertehokkuus>
 
 {% include common/clause_start.html type="req" id="prof-ak/vaat-vihertehokuus-arvot" %}
 ```arvo```-attribuutin arvoina saa esiintyä nolla tai yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#numeerinenarvo" title="NumeerinenArvo" %} joka kertoo kaavakohteen alueen tonttien viherkertoimen vähimmäisarvon. Numeerisen arvon on toteutettava {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#real" title="Real" %}-rajapinta. Muun tyyppiset arvot eivät ole sallittuja.
-
-{% include common/clause_start.html type="req" id="prof-ak/vaat-vihertehokuus-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
 
 ## Liikenteen suureet
 ### Pysäköinnin määrä
