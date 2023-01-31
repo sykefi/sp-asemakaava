@@ -1,10 +1,10 @@
 ---
 layout: "default"
 description: ""
-id: "ymparistoarvojen-vaaliminen"
+id: "ymparistoarvojen-alue"
 status: "Ehdotus"
 ---
-# Kaavamääräyslajit - ympäristöarvojen vaaliminen
+# Kaavamääräyslajit - ympäristöarvojen alue
 {:.no_toc}
 
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/09>
