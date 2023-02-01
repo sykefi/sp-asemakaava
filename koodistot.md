@@ -28,13 +28,12 @@ Luokan {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenma
 Luokan {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#abstraktikaavoitusteema" title="AbstraktiKaavoitusteema" %} sijaan tulee käyttää tarkentavaa luokkaa {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavoitusteemaasemakaava" title="KaavoitusteemaAsemakaava" %}.
 {% include common/clause_end.html %}
 
-## Kaavamääräyslaji
-{% include common/clause_start.html type="req" id="prof-ak/vaat-kaavamaarayslaji" %}
-Luokan {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#abstraktikaavamaarayslaji" title="AbstraktiKaavamaaraysLaji" %} sijaan tulee käyttää tarkentavaa luokkaa {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavamaarayslajiasemakaava" title="KaavamaaraysLajiAsemakaava" %}.
+## Kaavamääräys
+{% include common/clause_start.html type="req" id="prof-ak/vaat-kaavamaarays" %}
+Luokan {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#abstraktikaavamaarayslaji" title="AbstraktiKaavamaaraysLaji" %} sijaan tulee käyttää tarkentavaa luokkaa {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavamaarays" title="Kaavamaarays" %}.
 {% include common/clause_end.html %}
 
-## Kaavamääräyksen lisätiedon laji
-{% include common/clause_start.html type="req" id="prof-ak/vaat-kaavamaarayksen-lisatieton-laji" %}
-Luokan {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#abstraktilisatiedonlaji" title="AbstraktiLisatiedonLaji" %} sijaan tulee käyttää tarkentavaa luokkaa {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#lisatiedonlajiasemakaava" title="LisatiedonLajiAsemakaava" %}.
+## Kaavamääräyksen lisätieto
+{% include common/clause_start.html type="req" id="prof-ak/vaat-kaavamaarayksen-lisatieto" %}
+Luokan {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#abstraktilisatieto" title="AbstraktiLisatieto" %} sijaan tulee käyttää tarkentavaa luokkaa {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#lisatieto" title="Lisatieto" %}.
 {% include common/clause_end.html %}
-

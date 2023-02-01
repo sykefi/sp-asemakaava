@@ -1,10 +1,10 @@
 ---
 layout: "default"
 description: ""
-id: "ymparistoarvojen-vaaliminen"
+id: "ymparistoarvojen-alue"
 status: "Ehdotus"
 ---
-# Kaavamääräyslajit - ympäristöarvojen vaaliminen
+# Kaavamääräyslajit - ympäristöarvojen alue
 {:.no_toc}
 
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/09>
@@ -32,41 +32,6 @@ Muun tyyppiset arvot eivät ole sallittuja.
 
 {% include common/question.html content="Tämä pääluokka toimii nyt kaatoluokkana, koska sitä ei ole rajattu vain ryhmittelyotsikoksi. Onko tämä tarkoitus?" %}
 
-### Suojeltava alue tai alueen osa
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/090101>
-
-{% include common/clause_start.html type="req" id="prof-ak/vaat-suojeltava-alue" %}
-Ilmaisee, että kaavakohde kuvaa suojeltavan alueen tai alueen osan.
-{% include common/clause_end.html %}
-
-### Suojeltava rakennus
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/090102>
-
-{% include common/clause_start.html type="req" id="prof-ak/vaat-suojeltava-rakennus-maar" %}
-Ilmaisee, että kaavakohde kuvaa suojeltavan [rakennuksen](http://uri.suomi.fi/terminology/rakymp/c6).
-{% include common/clause_end.html %}
-
-### Suojeltava rakennelma
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/090103>
-
-{% include common/clause_start.html type="req" id="prof-ak/vaat-suojeltava-rakennelma-maar" %}
-Ilmaisee, että kaavakohde kuvaa suojeltavan [rakennelman](http://uri.suomi.fi/terminology/mrl/concept-125).
-{% include common/clause_end.html %}
-
-### Kiinteä suojeltava kohde
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/090104>
-
-{% include common/clause_start.html type="req" id="prof-ak/vaat-kiintea-suojeltava-kohde-maar" %}
-Ilmaisee, että kaavakohde kuvaa kiinteän suojeltavan kohteen.
-{% include common/clause_end.html %}
-
-### Kiinteä muinaisjäännös
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/090105>
-
-{% include common/clause_start.html type="req" id="prof-ak/vaat-kiintea-muinaisjaannos-maar" %}
-Ilmaisee, että kaavakohde kuvaa kiinteän muinaisjäännöksen.
-{% include common/clause_end.html %}
-
 ## Luontoarvoiltaan arvokas alue tai kohde
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0902>
 
@@ -83,43 +48,6 @@ Muun tyyppiset lisätietojen arvot eivät ole sallittuja.
 {% include common/note.html content="Mikäli ympäristöarvojen perusteet ja merkittävyydet kuvataan tulevaisuudessa omina koodistoinaan, tulee lisätietojen sallittuja arvoja muuttaa viittaamaan niihin" %}
 
 {% include common/question.html content="Tämä pääluokka toimii nyt kaatoluokkana, koska sitä ei ole rajattu vain ryhmittelyotsikoksi. Onko tämä tarkoitus?" %}
-
-### Suojeltu puu
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/090201>
-
-{% include common/clause_start.html type="req" id="prof-ak/vaat-suojeltu-puu-maar" %}
-Ilmaisee, että kaavakohde kuvaa suojellun puun.
-{% include common/clause_end.html %}
-
-{% include common/question.html content="Onko koodi tarkoituksella nimenomaan suojeltu, eikä suojeltava?" %}
-
-### Säilytettävä puu
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/090202>
-
-{% include common/clause_start.html type="req" id="prof-ak/vaat-sailytettava-puu-maar" %}
-Ilmaisee, että kaavakohde kuvaa säilytettävän puun.
-{% include common/clause_end.html %}
-
-### Suojeltava vesistö tai vesialue
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/090203>
-
-{% include common/clause_start.html type="req" id="prof-ak/vaat-suojeltava-vesisto-maar" %}
-Ilmaisee, että kaavakohde kuvaa suojeltavan vesistön tai vesialueen.
-{% include common/clause_end.html %}
-
-### Luonnon monimuotoisuuden kannalta tärkeä alue
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/090204>
-
-{% include common/clause_start.html type="req" id="prof-ak/vaat-luonnon-monimuotoisuus-maar" %}
-Ilmaisee, että kaavakohde kuvaa luonnon monimuotoisuuden kannalta tärkeän alueen.
-{% include common/clause_end.html %}
-
-### Ekologinen yhteys
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/090205>
-
-{% include common/clause_start.html type="req" id="prof-ak/vaat-ekologinen-yhteys-maar" %}
-Ilmaisee, että kaavakohde kuvaa ekologisen yhteyden.
-{% include common/clause_end.html %}
 
 ## Alue, jolla ympäristö säilytetään
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0903>
