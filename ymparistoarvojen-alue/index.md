@@ -17,7 +17,7 @@ Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot"
 ## Kulttuurihistoriallisesti arvokas alue tai kohde
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0901>
 
-{% include common/clause_start.html type="req" id="prof-ak/vaat-kulttuurihist-merkittava-alue" %}
+{% include common/clause_start.html type="req" id="sp-ak/vaat-kulttuurihist-merkittava-alue" %}
 Kaikkien asemakaavojen tietoaineistojen sisältämien {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavamaarays" title="Kaavamaarays" %}-luokan instanssien, joiden ```laji```-attribuutin arvo on jokin [Kultturihistoriallisesti arvokas alue tai kohde](http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0901)-koodin alakoodi, osalta tulee noudattaa seuraavia rajoituksia:
 * ```arvo```-attribuutin arvona saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 * ```lisatieto```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#lisatieto" title="Lisatieto" %} joka ```laji``` on yksi seuraavista:   
@@ -35,7 +35,7 @@ Muun tyyppiset arvot eivät ole sallittuja.
 ## Luontoarvoiltaan arvokas alue tai kohde
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0902>
 
-{% include common/clause_start.html type="req" id="prof-ak/vaat-kulttuurihist-merkittava-alue" %}
+{% include common/clause_start.html type="req" id="sp-ak/vaat-kulttuurihist-merkittava-alue" %}
 Kaikkien asemakaavojen tietoaineistojen sisältämien {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavamaarays" title="Kaavamaarays" %}-luokan instanssien, joiden ```laji```-attribuutin arvo on jokin [Luontoarvoiltaan arvokas alue tai kohde](http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0902)-koodin alakoodi, osalta tulee noudattaa seuraavia rajoituksia:
 * ```arvo```-attribuutin arvona saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 * ```lisatieto```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#lisatieto" title="Lisatieto" %} joka ```laji``` on yksi seuraavista:   
@@ -52,29 +52,29 @@ Muun tyyppiset lisätietojen arvot eivät ole sallittuja.
 ## Alue, jolla ympäristö säilytetään
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0903>
 
-{% include common/clause_start.html type="req" id="prof-ak/vaat-sailytettava-ymparisto-maar" %}
-Ilmaisee, että kaavakohde kuvaa alueen, jolla ympäristö säilytetään.
+{% include common/clause_start.html type="req" id="sp-ak/vaat-sailytettava-ymparisto-maar" %}
+Ilmaisee, että {% include common/moduleLink.html moduleId="kaavatiedot" path="dokumentaatio/#kaavakohde" title="Kaavakohde" %} kuvaa alueen, jolla ympäristö säilytetään.
 {% include common/clause_end.html %}
 
-{% include common/clause_start.html type="req" id="prof-ak/vaat-sailytettava-ymparisto-arvot" %}
+{% include common/clause_start.html type="req" id="sp-ak/vaat-sailytettava-ymparisto-arvot" %}
 ```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
-{% include common/clause_start.html type="req" id="prof-ak/vaat-sailytettava-ymparisto-lisatiedot" %}
+{% include common/clause_start.html type="req" id="sp-ak/vaat-sailytettava-ymparisto-lisatiedot" %}
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
 ## Alue, jolla on erityistä ulkoilun ohjaamistarvetta
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0904>
 
-{% include common/clause_start.html type="req" id="prof-ak/vaat-ulkoilun-ohjaamistarve-maar" %}
-Ilmaisee, että kaavakohde kuvaa alueen, jolla on sen luontoarvojen vuoksi erityistä ulkoilun ohjaamistarvetta.
+{% include common/clause_start.html type="req" id="sp-ak/vaat-ulkoilun-ohjaamistarve-maar" %}
+Ilmaisee, että {% include common/moduleLink.html moduleId="kaavatiedot" path="dokumentaatio/#kaavakohde" title="Kaavakohde" %} kuvaa alueen, jolla on sen luontoarvojen vuoksi erityistä ulkoilun ohjaamistarvetta.
 {% include common/clause_end.html %}
 
-{% include common/clause_start.html type="req" id="prof-ak/vaat-ulkoilun-ohjaamistarve-arvot" %}
+{% include common/clause_start.html type="req" id="sp-ak/vaat-ulkoilun-ohjaamistarve-arvot" %}
 ```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
-{% include common/clause_start.html type="req" id="prof-ak/vaat-ulkoilun-ohjaamistarve-lisatiedot" %}
+{% include common/clause_start.html type="req" id="sp-ak/vaat-ulkoilun-ohjaamistarve-lisatiedot" %}
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}

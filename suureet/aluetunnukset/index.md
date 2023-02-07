@@ -11,19 +11,19 @@ status: "Ehdotus"
 
 Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar" title="alakoodeja" %} käytetään.
 
-{% include common/clause_start.html type="req" id="prof-ak/suureet-lisatiedot" %}
+{% include common/clause_start.html type="req" id="sp-ak/suureet-lisatiedot" %}
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
-{% include common/clause_start.html type="req" id="prof-ak/vaat-aluetunnukset-arvot" %}
+{% include common/clause_start.html type="req" id="sp-ak/vaat-aluetunnukset-arvot" %}
 ```arvo```-attribuutin arvona saa esiintyä yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#numeerinenarvo" title="NumeerinenArvo" %}.  Numeerisen arvon on toteutettava {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#integer" title="Integer" %}-rajapinta. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
-{% include common/clause_start.html type="req" id="prof-ak/vaat-korttelin-numero-kohdennus" %}
+{% include common/clause_start.html type="req" id="sp-ak/vaat-korttelin-numero-kohdennus" %}
 [Korttelin numero](<http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/korttelinNumero>) kohdennetaan
  kaavakohteeseen, johon liittyy alueen käyttötarkoitusta kuvaava [kaavamääräys](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays)-koodi.
 {% include common/clause_end.html %}
 
-{% include common/clause_start.html type="req" id="prof-ak/vaat-korttelin-numero-kohdennus" %}
-[Tontin numero](<http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/tontinNumero>) kohdennetaan kaavakohteelle, johon liittyy kaavamääräys [tontti](http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji/code/tontti).
+{% include common/clause_start.html type="req" id="sp-ak/vaat-korttelin-numero-kohdennus" %}
+[Tontin numero](<http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/tontinNumero>) kohdennetaan kaavakohteelle, johon liittyy kaavamääräys [tontti](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/tontti).
 {% include common/clause_end.html %}

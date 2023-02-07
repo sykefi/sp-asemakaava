@@ -11,7 +11,7 @@ status: "Ehdotus"
 
 Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar" title="alakoodeja" %} käytetään.
 
-{% include common/clause_start.html type="req" id="prof-ak/suureet-lisatiedot" %}
+{% include common/clause_start.html type="req" id="sp-ak/suureet-lisatiedot" %}
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
@@ -19,7 +19,7 @@ Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot"
 
 {% include common/question.html content="Nimistö on vieläkin hieman irrallinen muista. Omana luokkaan irrallisena suureista olisi vähän liioiteltua. Voidaanko koko luokasta luopua, ja käyttää kaavakohteen Nimi-attribuuttia? Toimisi ainakin muihin kuin kaupunginosiin, joiden osalta onko kysymys miten usein kaavalla ratkaistavasta asiasta?" %}
 
-{% include common/clause_start.html type="req" id="prof-ak/vaat-nimisto-arvot" %}
+{% include common/clause_start.html type="req" id="sp-ak/vaat-nimisto-arvot" %}
 ```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), jolla annetaan kaavakohteen nimi, kohteelle liitetyn kaavamääräyksen perusteella joko [Torin tai aukion nimi](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/torinTaiKatuaukionNimi), [Puiston tai muun yleisen alueen nimi](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/puistonTaiMuunYleisenAlueenNimi), [Kadun tai tien nimi](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/kadunTaiTienNimi) tai [Kaupungin- tai kunnanosan nimi](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/kaupunginTaiKunnanosanNimi). Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
