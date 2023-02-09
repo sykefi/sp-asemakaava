@@ -13,7 +13,7 @@ Asemakaavan käyttötarkoitusalue on {% include common/moduleLink.html moduleId=
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="sp-ak/vaat-kayttotarkoitusalue-maar" %}
-Asemakaavan käyttötarkoitusalue liittyy assosiaatiolla ```maarays``` yhteen tai useampaan sellaiseen [Kaavamaarays](dokumentaatio/#kaavamaarays)-luokan objektiin, jonka ```laji```-attribuutin arvo on jokin [Kaavamääräys](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays)-koodiston arvoista, joka sisältyy määrityshierarkioihin  ```Käyttötarkoitus``` ja ```Asemakaava```.
+Asemakaavan käyttötarkoitusalue liittyy assosiaatiolla ```maarays``` yhteen tai useampaan sellaiseen [Kaavamaarays](dokumentaatio/#kaavamaarays)-luokan objektiin, jonka ```laji```-attribuutin arvo on jokin [Kaavamääräyslaji](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays)-koodiston arvoista, joka sisältyy määrityshierarkioihin  ```Aluevaraus``` ja ```Asemakaava```.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="sp-ak/vaat-ei-leikkaavat-kayttotarkoitusalueet" %}
@@ -32,5 +32,5 @@ Asemakaavan alueen osa on {% include common/moduleLink.html moduleId="kaavatiedo
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="sp-ak/vaat-osaalue-maar" %}
-Asemakaavan käyttötarkoitusalue liittyy assosiaatiolla ```maarays``` yhteen tai useampaan sellaiseen [Kaavamaarays](dokumentaatio/#kaavamaarays)-luokan objektiin, jonka ```laji```-attribuutin arvo on jokin [Kaavamääräys](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays)-koodiston arvoista, joka sisältyy määrityshierarkioihin  ```Käyttötarkoitus``` ja ```Asemakaava```.
+Asemakaavan osa-alue liittyy assosiaatiolla ```maarays``` yhteen tai useampaan sellaiseen [Kaavamaarays](dokumentaatio/#kaavamaarays)-luokan objektiin, jonka ```laji```-attribuutin arvo on jokin [Kaavamääräyslaji](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays)-koodiston arvoista, joka sisältyy määrityshierarkiaan ```Asemakaava```, ei sisälly määrityshierarkiaan ```Suure```, ja jonka lisätiedon arvoksi on annettu [Osa-alue](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/osaAlue).
 {% include common/clause_end.html %}
