@@ -33,6 +33,8 @@ status: "Ehdotus"
 * Nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#geometriaarvo" title="GeometriaArvo" %} joka on päällekkäin sen {% include common/moduleLink.html moduleId="kaavatiedot" path="dokumentaatio/#kaavakohde" title="Kaavakohteen" %} geometrian osan kanssa, jonka puoleisia sivuja kaavamääräys koskee.
 {% include common/clause_end.html %}
 
+<!-- Tältä osin nested geometry -rakenne vielä pohdittava -->
+
 Esimerkki:
 <br>
 * Kaavakohde, jolla määräyksinä [Melueste](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/melueste) sekä [Ääneneristävyys](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/aaneneristavyys) ```arvo```lla 20 (desibeliä).
@@ -51,3 +53,5 @@ Esimerkki:
 * Yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#numeerinenarvo" title="NumeerinenArvo" %} joka kertoo rakennusten vähimmäisetäisyyden naapuritontin rajasta sen {% include common/moduleLink.html moduleId="kaavatiedot" path="dokumentaatio/#kaavakohde" title="Kaavakohteen" %} alueella, johon kaavamääräys on liitetty. Numeerisen arvon on toteutettava {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#real" title="Real" %}-rajapinta. Yksikkönä metri (```m```).
 * Nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#geometriaarvo" title="GeometriaArvo" %} joka on päällekkäin sen {% include common/moduleLink.html moduleId="kaavatiedot" path="dokumentaatio/#kaavakohde" title="Kaavakohteen" %} geometrian osan kanssa, jonka puoleista osaa etäisyysvaatimus koskee.
 {% include common/clause_end.html %}
+
+<!-- Tältä osin nested geometry -rakenne vielä pohdittava -->
