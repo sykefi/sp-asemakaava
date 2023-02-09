@@ -11,8 +11,20 @@ status: "Ehdotus"
 {% include common/clause_start.html type="req" id="sp-ak/vaat-kaavamaarayksen-lisatieto" %}
 Kaavamääräyksen lisätiedot ovat kaavamääräystä täsmentäviä tietoja, jotka ei voida käyttää yksinään. Kaavamääräyksen lisätiedon on siis liityttävä kaavamääräykseen.
 
+
 ## Tyyppi
 Kaavamääräyksen tarkempi tyypittely. Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar" title="alakoodeja" %} käytetään.
+
+### Pääkäyttötarkoitus
+Kaavamääräyksen lisätiedolla [Pääkäyttötarkoitus](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/paakayttotarkoitus) annotoidaan [Käyttötarkoitusalueille](../kayttotarkoitukset/index.md) annettuista {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavamaarays" title="Kaavamääräyksistä" %} pääkäyttötarkoitus. Pääkäyttötarkoituksella tarkoitetaan sitä käyttötarkoitusta, johon suhteellisesti suurin osa alueen käytöstä on tarkoitettu. 
+
+{% include common/clause_start.html type="req" id="sp-yk/paakayttotarkoitus" %}
+[Käyttötarkoitusalueille](../kayttotarkoitukset/index.md) {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavamaarays" title="Kaavamääräyksistä" %} yhdelle tai useammalle on merkittävä {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#lisatieto" title="Lisatiedoksi" %} [Pääkäyttötarkoitus](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/paakayttotarkoitus), riippuen siitä, onko {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavakohde" title="Kaavakohteelle" %} osoitettu osuudeltaan yhtäsuureksi tarkoitettuja käyttötarkoituksia. %}
+{% include common/clause_end.html %}
+
+### Osa-alue
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/osaAlue>
+Ks. [Käyttötarkoitusalueet](../kayttotarkoitukset/index.md). 
 
 ### Poisluettava käyttötarkoitus
 Kaavamääräyksen ```lisatieto```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#lisatieto" title="Lisatieto" %} jonka laji on [Poisluettava käyttötarkoitus](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/poisluettavaKayttotarkoitus), ja jonka ```arvo```-attribuutin arvoina on yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#koodiarvo" title="KoodiArvo" %} jotka viittaavat [Kaavamääräys](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays)-koodiston koodeihin, jotka sisältyvät ```Käyttötarkoitus```-määrityshierarkiaan. Muun tyyppiset arvot eivät ole sallittuja.
