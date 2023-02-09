@@ -11,6 +11,8 @@ status: "Ehdotus"
 
 Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar" title="alakoodeja" %} käytetään.
 
+{% include common/question.html content="Tässä esiintyviä sääntöjä ei ole käsitelty. Ovatko näissä viitatut erilliset koodistot yhä relevantteja?" %}
+
 1. 
 {:toc}
 
