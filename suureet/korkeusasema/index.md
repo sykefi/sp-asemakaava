@@ -14,20 +14,16 @@ status: "Ehdotus"
 
 ### Korkeusasema
 
-{% include common/clause_start.html type="req" id="sp-ak/vaat-maanpinnan-korkeusasema-konsistenssi" %}
-[Maanpinnan korkeusasema](#maanpinnan-korkeusasema) -kaavamääräyksen arvon on vastattava kaavan [Pohjakartta](http://uri.suomi.fi/codelist/rytj/RY_LahtotietoaineistonLaji/code/11)-lajin [Lahtotietoaineiston](../../looginenmallin/dokumentaatio/#lahtotietoaineisto) topografisen aineiston maanpinnan korkeutta kaavakohteen sijannissa kuvaavaa arvoa.
-{% include common/clause_end.html %}
-
 ## Maanpinnan korkeusasema
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/maanpinnanKorkeusasema>
 
-Kaava-aineistossa voidaan ilmaista maanpinnan nimelliskorkeus merenpinnasta tietyissä pisteissä kaavamääräyksenä, vaikka sen arvon tuleekin perustua kaavan lähtötietoaineiston topografiseen tietoon.
+{% include common/clause_start.html type="req" id="sp-ak/vaat-maanpinnan-korkeusasema" %}
+Kaava-aineistossa voidaan ilmaista maanpinnan nimelliskorkeus merenpinnasta tietyissä pisteissä kaavamääräyksenä kaavamääräyslaji-koodin [Maanpinnan korkeusasema](#maanpinnan-korkeusasema) ja sen arvon avulla.
+{% include common/clause_end.html %} 
 
 {% include common/clause_start.html type="req" id="sp-ak/vaat-maanpinnan-korkeusasema-arvot" %}
 ```arvo```-attribuutin arvoina saa esiintyä yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#korkeuspiste" title="Korkeuspiste" %} tai yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#korkeusvali" title="Korkeusvali" %} jotka kertovat maanpinnan korkeuden merenpinnasta sovitun pystysuuntaisen koordinaatiston arvona kaavakohteen sijainnissa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
-
-{% include common/question.html content="Miksi maanpinnan korkeusasema on kaavamääräys? Ei voi olla ristiriidassa topografisen pohjakartta-aineiston korkeuskäyrien kanssa?" %}
 
 ## Rakennuksen vesikaton ylimmän kohdan korkeusasema
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/vesikatonYlimmanKohdanKorkeusasema>
