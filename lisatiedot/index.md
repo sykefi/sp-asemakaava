@@ -11,7 +11,6 @@ status: "Ehdotus"
 {% include common/clause_start.html type="req" id="sp-ak/vaat-kaavamaarayksen-lisatieto" %}
 Kaavamääräyksen lisätiedot ovat kaavamääräystä täsmentäviä tietoja, jotka ei voida käyttää yksinään. Kaavamääräyksen lisätiedon on siis liityttävä kaavamääräykseen.
 
-
 ## Tyyppi
 Kaavamääräyksen tarkempi tyypittely. Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar" title="alakoodeja" %} käytetään.
 
@@ -34,8 +33,6 @@ Poisluettavat käyttötarkoituslajit tulee valita siten, että ne kohdistuvat ``
 
 Esimerkkejä: 
 * [Toimitilojen alue](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/toimitilojenAlue) pois lukien [Tuotantorakennusten alue](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/tuotantorakennustenAlue).
-
-* [Suojavyöhyke](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/toimitilojenAlue) pois lukien [Erityisryhmien asuinrakennusten alue](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/erityisryhmienAsuinrakennustenAlue).
 
 ### Informatiivinen
 Kaavamääräyksen lisätiedolla [Informatiivinen](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/informatiivinen) voidaan merkitä luonteeltaan informatiiviset kaavamääräykset. Tällä tarkoitetaan lähtökohtaisesti muiden viranomaisten maankäyttöön liittyviin päätöksiin tai lainsäädäntöön, sekä maakunnallisiin tai valtakunnallisiin selvityksiin ja inventointeihin perustuvia kaavakohteita, joihin ei ole kaavasuunnitelmassa liitetty täydentäviä kaavamääräyksiä.
