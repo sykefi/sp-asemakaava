@@ -51,16 +51,3 @@ Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot"
 {% include common/clause_start.html type="rec" id="sp-ak/suos-sitovat-rakentamistapaohjeet-liittyva-asiakirja" %}
 Rakentamistapaohje on suositeltavaa linkittää kaavamääräykseen ```liittyvaAsiakirja```-assosiaation avulla.
 {% include common/clause_end.html %}
-
-<!--
-## Hissi
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0510>
-
-{% include common/clause_start.html type="req" id="sp-ak/vaat-hissi-maar" %}
-Ilmaisee, että {% include common/moduleLink.html moduleId="kaavatiedot" path="dokumentaatio/#kaavakohde" title="Kaavakohteen" %} aluella rakennuksiin tai niiden tietyille sivuille on rakennettava hissit.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="sp-ak/vaat-hissi-arvot" %}
-```arvo```-attribuutin arvona saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#geometriaarvo" title="GeometriaArvo" %} joka on päällekkäin sen kaavakohteen geometrian osan kanssa, joka puoleisia sivuja kaavamääräys koskee. Muun tyyppiset arvot eivät ole sallittuja.
-{% include common/clause_end.html %}
--->
