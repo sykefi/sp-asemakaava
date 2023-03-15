@@ -13,6 +13,12 @@ status: "Ehdotus"
 ```arvo```-attribuutin mahdolliset arvot ovat seuraavat:
 * Nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#koodiarvo" title="KoodiArvo" %} jotka kuvaa rakennusalalle rakennettavaksi tarkoitetun rakennuksen lajin viittaamalla koodistoon [Rakennusluokitus 2018](http://uri.suomi.fi/codelist/jhs/rakennus_1_20180712).
 
+### Rakennusalan sivu, jota koskee tarkempi määräys
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/rakennusalanSivuJotaKoskeeTarkempiMaarays>
+{% include common/clause_start.html type="req" id="sp-ak/vaat-rakennusalan-sivu" %}
+{% include common/moduleLink.html moduleId="kaavatiedot" path="dokumentaatio/#kaavakohde" title="Kaavakohteen" %}, johon liittyy {% include common/moduleLink.html moduleId="kaavatiedot" path="dokumentaatio/#kaavamaarays" title="Kaavamääräyslaji" %} [Rakennuksen sivu, jota koskee tarkempi määräys](<RY_Kaavamaarays/code/rakennusalanSivuJotaKoskeeTarkempiMaarays>), tulee geometrialtaan olla päällekkäinen toisen {% include common/moduleLink.html moduleId="kaavatiedot" path="dokumentaatio/#kaavakohde" title="Kaavakohteen" %} geometrian kanssa, johon liittyy {% include common/moduleLink.html moduleId="kaavatiedot" path="dokumentaatio/#kaavamaarays" title="Kaavamääräys" %} [Rakennusala](<http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/rakennusala>.)
+{% include common/clause_end.html %}
+
 ### Rakennuksen sivu, jossa suora uloskäynti porrashuoneista
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/rakennusalanSivuJossaSuoraUloskayntiPorrashuoneista>
 
@@ -24,5 +30,5 @@ status: "Ehdotus"
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/ikkunatonSeina>
 
 {% include common/clause_start.html type="req" id="sp-ak/vaat-ei-ikkunoita-geometria" %}
-{% include common/moduleLink.html moduleId="kaavatiedot" path="dokumentaatio/#kaavakohde" title="Kaavakohteen" %}, johon liittyy {% include common/moduleLink.html moduleId="kaavatiedot" path="dokumentaatio/#kaavamaarays" title="Kaavamääräys" %} [Ikkunaton seinä](<http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/ikkunatonSeina>), tulee {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#geometriaarvo" title="GeometriaArvoltaan" %} olla päällekkäinen toisen {% include common/moduleLink.html moduleId="kaavatiedot" path="dokumentaatio/#kaavakohde" title="Kaavakohteen" %} {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#geometriaarvo" title="GeometriaArvon" %} kanssa, johon liittyy {% include common/moduleLink.html moduleId="kaavatiedot" path="dokumentaatio/#kaavamaarays" title="Kaavamääräys" %} [Rakennusala](<http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/rakennusala>)
+{% include common/moduleLink.html moduleId="kaavatiedot" path="dokumentaatio/#kaavakohde" title="Kaavakohteen" %}, johon liittyy {% include common/moduleLink.html moduleId="kaavatiedot" path="dokumentaatio/#kaavamaarays" title="Kaavamääräys" %} [Ikkunaton seinä](<http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/ikkunatonSeina>), tulee geometrialtaan olla päällekkäinen toisen {% include common/moduleLink.html moduleId="kaavatiedot" path="dokumentaatio/#kaavakohde" title="Kaavakohteen" %} geometrian kanssa, johon liittyy {% include common/moduleLink.html moduleId="kaavatiedot" path="dokumentaatio/#kaavamaarays" title="Kaavamääräys" %} [Rakennusala](<http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/rakennusala>)
 {% include common/clause_end.html %}
