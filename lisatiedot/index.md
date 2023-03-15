@@ -52,7 +52,7 @@ Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot"
 Rakentamistapaohje on suositeltavaa linkittää kaavamääräykseen ```liittyvaAsiakirja```-assosiaation avulla.
 {% include common/clause_end.html %}
 
-
+<!--
 ## Kulttuuriymparistöarvojen alue
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/kulttuuriymparistoarvojenAlue>
 
@@ -65,3 +65,4 @@ Rakentamistapaohje on suositeltavaa linkittää kaavamääräykseen ```liittyvaA
    * [Kulttuurihistoriallisen merkittävyyden kriteerit](http://uri.suomi.fi/codelist/rytj/RY_LisatiedonLaji_AK/code/08), jonka arvoina on yksi tai useampi{% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#koodiarvo" title="KoodiArvo" %} joka viittaa johonkin [Kulttuurihistoriallisen merkittävyyden kriteerit](http://uri.suomi.fi/codelist/rakrek/KultKritee) koodiston koodeista.
 Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
+-->
