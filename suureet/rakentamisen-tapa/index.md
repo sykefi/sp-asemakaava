@@ -29,11 +29,8 @@ status: "Ehdotus"
 
 {% include common/clause_start.html type="req" id="sp-ak/vaat-aaneneristavyys-arvot" %}
 ```arvo```-attribuutin mahdolliset arvot ovat seuraavat:
-* Yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#numeerinenarvo" title="NumeerinenArvo" %} joka kuvaa rakennuksen ulkoseinien sekä ikkunoiden ja muiden rakenteiden vähimmäisääneneristävyyden liikennemelua vastaan desibeleinä (```db```). Numeerisen arvon on toteutettava {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#real" title="Real" %}-rajapinta.
-* Nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#geometriaarvo" title="GeometriaArvo" %} joka on päällekkäin sen {% include common/moduleLink.html moduleId="kaavatiedot" path="dokumentaatio/#kaavakohde" title="Kaavakohteen" %} geometrian osan kanssa, jonka puoleisia sivuja kaavamääräys koskee.
+* Yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#numeerinenarvo" title="NumeerinenArvo" %} joka kuvaa vähimmäisääneneristävyyden melua vastaan desibeleinä (```db```). Numeerisen arvon on toteutettava {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#real" title="Real" %}-rajapinta.
 {% include common/clause_end.html %}
-
-<!-- Tältä osin nested geometry -rakenne vielä pohdittava -->
 
 Esimerkki:
 <br>
@@ -50,8 +47,5 @@ Esimerkki:
 
 {% include common/clause_start.html type="req" id="sp-ak/vaat-etaisyys-naapuritontin-rajasta-arvot" %}
 ```arvo```-attribuutin mahdolliset arvot ovat seuraavat:
-* Yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#numeerinenarvo" title="NumeerinenArvo" %} joka kertoo rakennusten vähimmäisetäisyyden naapuritontin rajasta sen {% include common/moduleLink.html moduleId="kaavatiedot" path="dokumentaatio/#kaavakohde" title="Kaavakohteen" %} alueella, johon kaavamääräys on liitetty. Numeerisen arvon on toteutettava {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#real" title="Real" %}-rajapinta. Yksikkönä metri (```m```).
-* Nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#geometriaarvo" title="GeometriaArvo" %} joka on päällekkäin sen {% include common/moduleLink.html moduleId="kaavatiedot" path="dokumentaatio/#kaavakohde" title="Kaavakohteen" %} geometrian osan kanssa, jonka puoleista osaa etäisyysvaatimus koskee.
+* Yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#numeerinenarvo" title="NumeerinenArvo" %} joka kertoo kaavakohteen vähimmäisetäisyyden naapuritontin rajasta sen {% include common/moduleLink.html moduleId="kaavatiedot" path="dokumentaatio/#kaavakohde" title="Kaavakohteen" %} alueella, johon kaavamääräys on liitetty. Numeerisen arvon on toteutettava {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#real" title="Real" %}-rajapinta. Yksikkönä metri (```m```).
 {% include common/clause_end.html %}
-
-<!-- Tältä osin nested geometry -rakenne vielä pohdittava -->
