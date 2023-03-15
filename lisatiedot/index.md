@@ -41,9 +41,6 @@ Poisluettavat käyttötarkoituslajit tulee valita siten, että ne kohdistuvat ``
 Esimerkkejä: 
 * [Toimitilojen alue](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/toimitilojenAlue) pois lukien [Tuotantorakennusten alue](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/tuotantorakennustenAlue).
 
-### Informatiivinen
-Kaavamääräyksen lisätiedolla [Informatiivinen](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/informatiivinen) voidaan merkitä luonteeltaan informatiiviset kaavamääräykset. Tällä tarkoitetaan lähtökohtaisesti muiden viranomaisten maankäyttöön liittyviin päätöksiin tai lainsäädäntöön, sekä maakunnallisiin tai valtakunnallisiin selvityksiin ja inventointeihin perustuvia kaavakohteita, joihin ei ole kaavasuunnitelmassa liitetty täydentäviä kaavamääräyksiä.
-
 ## Rakentamisen ohjaus
 
 Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar" title="alakoodeja" %} käytetään.
@@ -55,23 +52,6 @@ Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot"
 Rakentamistapaohje on suositeltavaa linkittää kaavamääräykseen ```liittyvaAsiakirja```-assosiaation avulla.
 {% include common/clause_end.html %}
 
-<!--
-### Liitettävä kaukolämpöverkkoon
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/liitettavaKaukolampoverkkoon>
--->
-
-<!--
-## Parvekkeet sijoitettava rungon sisään
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0509>
-
-{% include common/clause_start.html type="req" id="sp-ak/vaat-parvekkeet-rungon-sisaan-maar" %}
-Ilmaisee, että kaavakohteen aluella rakennusten parvekkeet tulee rakentaa talon rungon sisään.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="sp-ak/vaat-parvekkeet-rungon-sisaan-arvot" %}
-```arvo```-attribuutin arvona saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#geometriaarvo" title="GeometriaArvo" %} joka on päällekkäin sen kaavakohteen geometrian osan kanssa, jonka puoleisia sivuja kaavamääräys koskee. Muun tyyppiset arvot eivät ole sallittuja.
-{% include common/clause_end.html %}
--->
 <!--
 ## Hissi
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_AK/code/0510>
