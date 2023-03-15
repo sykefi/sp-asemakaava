@@ -66,12 +66,3 @@ Kaava-aineistossa voidaan ilmaista maanpinnan nimelliskorkeus merenpinnasta tiet
 {% include common/clause_start.html type="req" id="sp-ak/vaat-alin-painovoimainen-viemarointitaso-arvot" %}
 ```arvo```-attribuutin arvoina saa esiintyä yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#korkeuspiste" title="Korkeuspiste" %} joka kertoo alimman painovoimaisen viemäröintitason korkeuden sovitun pystysuuntaisen koordinaatiston arvona. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
-
-## Aurinkokennojen alin sijoittumistaso
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/1202>
-
-{% include common/clause_start.html type="req" id="sp-ak/vaat-alin-aurinkokennojen-sijoittumistaso-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#korkeuspiste" title="Korkeuspiste" %} joka kertoo alimman aurinkokennojen sijoittumistason korkeuden sovitun pystysuuntaisen koordinaatiston arvona. Muun tyyppiset arvot eivät ole sallittuja.
-{% include common/clause_end.html %}
-
-{% include common/question.html content="Tämä uupuu nyt koodistoista, siellä on yleinen alinSijoittumistaso - tarvitaanko erillistä aurinkokennoille? Ei muille varusteille?" %}
