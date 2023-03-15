@@ -10,14 +10,11 @@ status: "Ehdotus"
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/tontti>
 
 ### Sitovan tonttijaon mukainen tontti
-Sitovan tonttijaon mukainen tontti kuvataan siten, että:
-kaavakohteeseen liittyy kaavamääräyskoodi [tontti](<http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/tontti>), ja
- kaavakohteen sijainnin ```sitovuudenLaji``` -attribuutin arvoksi on merkitty [Sitova](https://koodistot.suomi.fi/code;registryCode=rytj;schemeCode=RY_Sitovuuslaji;codeCode=01).
+{% include common/clause_start.html type="req" id="sp-ak/vaat-sitova-tonttijako" %}
+Sitovan tonttijaon mukainen tontti kuvataan siten, että Kaavakohteeseen liittyy kaavamääräyslaji-koodiston koodi [Sitovan tonttijaon mukainen tontti](<http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/sitovanTonttijaonMukainenTontti>).
+{% include common/clause_end.html %}
 
 ### Ohjeellinen tontti
-
-Ohjeellinen tontti kuvataan siten, että:
-kaavakohteeseen liittyy kaavamääräyskoodi [tontti](<http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/tontti>), ja
- kaavakohteen sijainnin ```sitovuudenLaji``` -attribuutin arvoksi on merkitty [Ohjeellinen](https://koodistot.suomi.fi/code;registryCode=rytj;schemeCode=RY_Sitovuuslaji;codeCode=02).
-
-Sijainniltaan ohjeelliseksi merkitylle tontille voidaan asettaa lisätiedoksi [Sitova tonttijako laadittava](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/sitovaTonttijakoLaadittava).
+{% include common/clause_start.html type="req" id="sp-ak/vaat-sitova-tonttijako" %}
+Ohjeellinen tontti kuvataan siten, että Kaavakohteeseen liittyy kaavamääräyslaji-koodiston koodi [Ohjeellinen tontti](<http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/ohjeellinenTontti>).
+{% include common/clause_end.html %}
